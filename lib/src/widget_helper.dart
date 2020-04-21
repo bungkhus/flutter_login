@@ -8,7 +8,7 @@ Size getWidgetSize(GlobalKey key) {
   return renderBox?.size;
 }
 
-Flushbar showSuccessToast(BuildContext context, String message) {
+Fluttertoast showSuccessToast(BuildContext context, String message) {
   Fluttertoast.showToast(
       msg: message,
       toastLength: Toast.LENGTH_SHORT,
@@ -32,7 +32,7 @@ Flushbar showSuccessToast(BuildContext context, String message) {
   // )..show(context);
 }
 
-Flushbar showErrorToast(BuildContext context, String message) {
+Fluttertoast showErrorToast(BuildContext context, String message) {
   Fluttertoast.showToast(
       msg: message,
       toastLength: Toast.LENGTH_SHORT,
